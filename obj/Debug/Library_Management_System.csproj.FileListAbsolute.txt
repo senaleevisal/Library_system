@@ -1,0 +1,14 @@
+C:\Users\ridma\Documents\GitHub\Library_system\bin\Debug\Library_Management_System.exe.config
+C:\Users\ridma\Documents\GitHub\Library_system\bin\Debug\Library_Management_System.exe
+C:\Users\ridma\Documents\GitHub\Library_system\bin\Debug\Library_Management_System.pdb
+C:\Users\ridma\Documents\GitHub\Library_system\bin\Debug\Guna.UI2.dll
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.csproj.AssemblyReference.cache
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Form1.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Properties.Resources.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.csproj.GenerateResource.cache
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.csproj.CopyComplete
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.exe
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.pdb
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Form2.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Form3.resources
