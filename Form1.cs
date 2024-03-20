@@ -20,6 +20,7 @@ namespace Library_Management_System
         private void Form1_Load(object sender, EventArgs e)
         {
             login_password_textbox.UseSystemPasswordChar = true;
+            login_username_textbox.Focus();
         }
 
         private void login_enterpasword_lable_Click(object sender, EventArgs e)
@@ -114,6 +115,16 @@ namespace Library_Management_System
             {
                 login_password_textbox.UseSystemPasswordChar = true;
             }
+        }
+
+        private void login_username_textbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            login_password_textbox.Focus();
+        }
+
+        private void login_password_textbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            login_button.Focus();
         }
     }
 }

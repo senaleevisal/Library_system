@@ -28,5 +28,76 @@ namespace Library_Management_System
         {
 
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            user_name_text.Focus();
+            password_text.UseSystemPasswordChar = true;
+            repassword_text.UseSystemPasswordChar = true;
+        }
+
+        private void user_name_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == (char)Keys.Enter)
+            {
+                ID_number_text.Focus();
+            }
+        }
+
+        private void ID_number_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                email_text.Focus();
+            }
+        }
+
+        private void email_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                password_text.Focus();
+            }
+        }
+
+        private void password_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                repassword_text.Focus();
+            }
+        }
+
+        private void repassword_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                guna2Button1.Focus();
+            }
+        }
+
+        private void password_text_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (guna2CheckBox1.Checked == true)
+            {
+                password_text.UseSystemPasswordChar = false;
+                repassword_text.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                password_text.UseSystemPasswordChar = true;
+                repassword_text.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void ID_number_text_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
