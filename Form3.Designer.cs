@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.repassword_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.password_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.email_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.id_number_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.user_name_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.repassword_text = new Guna.UI2.WinForms.Guna2TextBox();
             this.password_text = new Guna.UI2.WinForms.Guna2TextBox();
             this.email_text = new Guna.UI2.WinForms.Guna2TextBox();
             this.ID_number_text = new Guna.UI2.WinForms.Guna2TextBox();
             this.user_name_text = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.user_name_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.id_number_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.email_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.password_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.repassword_error = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,6 +79,110 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1160, 608);
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // guna2CheckBox1
+            // 
+            this.guna2CheckBox1.AutoSize = true;
+            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.guna2CheckBox1.ForeColor = System.Drawing.Color.White;
+            this.guna2CheckBox1.Location = new System.Drawing.Point(900, 389);
+            this.guna2CheckBox1.Name = "guna2CheckBox1";
+            this.guna2CheckBox1.Size = new System.Drawing.Size(175, 29);
+            this.guna2CheckBox1.TabIndex = 5;
+            this.guna2CheckBox1.Text = "Show Password";
+            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.UncheckedState.BorderThickness = 2;
+            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CheckBox1.CheckedChanged += new System.EventHandler(this.guna2CheckBox1_CheckedChanged);
+            // 
+            // repassword_error
+            // 
+            this.repassword_error.BackColor = System.Drawing.Color.Transparent;
+            this.repassword_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.repassword_error.ForeColor = System.Drawing.Color.Red;
+            this.repassword_error.Location = new System.Drawing.Point(672, 374);
+            this.repassword_error.Name = "repassword_error";
+            this.repassword_error.Size = new System.Drawing.Size(181, 22);
+            this.repassword_error.TabIndex = 4;
+            this.repassword_error.Text = "Enter Correct password";
+            this.repassword_error.Visible = false;
+            // 
+            // password_error
+            // 
+            this.password_error.BackColor = System.Drawing.Color.Transparent;
+            this.password_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.password_error.ForeColor = System.Drawing.Color.Red;
+            this.password_error.Location = new System.Drawing.Point(672, 214);
+            this.password_error.Name = "password_error";
+            this.password_error.Size = new System.Drawing.Size(183, 22);
+            this.password_error.TabIndex = 4;
+            this.password_error.Text = "Enter Correct Password";
+            this.password_error.Visible = false;
+            // 
+            // email_error
+            // 
+            this.email_error.BackColor = System.Drawing.Color.Transparent;
+            this.email_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.email_error.ForeColor = System.Drawing.Color.Red;
+            this.email_error.Location = new System.Drawing.Point(83, 544);
+            this.email_error.Name = "email_error";
+            this.email_error.Size = new System.Drawing.Size(155, 22);
+            this.email_error.TabIndex = 4;
+            this.email_error.Text = "Enter Correct e-mail";
+            this.email_error.Visible = false;
+            // 
+            // id_number_error
+            // 
+            this.id_number_error.BackColor = System.Drawing.Color.Transparent;
+            this.id_number_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.id_number_error.ForeColor = System.Drawing.Color.Red;
+            this.id_number_error.Location = new System.Drawing.Point(83, 374);
+            this.id_number_error.Name = "id_number_error";
+            this.id_number_error.Size = new System.Drawing.Size(190, 22);
+            this.id_number_error.TabIndex = 4;
+            this.id_number_error.Text = "Enter Correct ID Number";
+            this.id_number_error.Visible = false;
+            // 
+            // user_name_error
+            // 
+            this.user_name_error.BackColor = System.Drawing.Color.Transparent;
+            this.user_name_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.user_name_error.ForeColor = System.Drawing.Color.Red;
+            this.user_name_error.Location = new System.Drawing.Point(83, 214);
+            this.user_name_error.Name = "user_name_error";
+            this.user_name_error.Size = new System.Drawing.Size(194, 22);
+            this.user_name_error.TabIndex = 4;
+            this.user_name_error.Text = "Enter Correct User Name";
+            this.user_name_error.Visible = false;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderColor = System.Drawing.Color.White;
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.BorderThickness = 4;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI Black", 28.2F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.BorderColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.guna2Button1.Location = new System.Drawing.Point(672, 438);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(403, 99);
+            this.guna2Button1.TabIndex = 3;
+            this.guna2Button1.Text = "Create Account";
+            this.guna2Button1.UseTransparentBackground = true;
             // 
             // guna2HtmlLabel6
             // 
@@ -139,6 +243,31 @@
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(120, 27);
             this.guna2HtmlLabel2.TabIndex = 2;
             this.guna2HtmlLabel2.Text = "User Name";
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(380, 16);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(428, 71);
+            this.guna2HtmlLabel1.TabIndex = 1;
+            this.guna2HtmlLabel1.Text = "Create Account";
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Image = global::Library_Management_System.Properties.Resources.cross_small;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.Location = new System.Drawing.Point(1503, 12);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(47, 47);
+            this.guna2ImageButton1.TabIndex = 1;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // repassword_text
             // 
@@ -295,136 +424,8 @@
             this.user_name_text.SelectedText = "";
             this.user_name_text.Size = new System.Drawing.Size(403, 99);
             this.user_name_text.TabIndex = 0;
+            this.user_name_text.TextChanged += new System.EventHandler(this.user_name_text_TextChanged);
             this.user_name_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.user_name_text_KeyPress);
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(380, 16);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(428, 71);
-            this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "Create Account";
-            // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Image = global::Library_Management_System.Properties.Resources.cross_small;
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(1503, 12);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(47, 47);
-            this.guna2ImageButton1.TabIndex = 1;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderColor = System.Drawing.Color.White;
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.BorderThickness = 4;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI Black", 28.2F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.BorderColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.guna2Button1.Location = new System.Drawing.Point(672, 438);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(403, 99);
-            this.guna2Button1.TabIndex = 3;
-            this.guna2Button1.Text = "Create Account";
-            this.guna2Button1.UseTransparentBackground = true;
-            // 
-            // user_name_error
-            // 
-            this.user_name_error.BackColor = System.Drawing.Color.Transparent;
-            this.user_name_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.user_name_error.ForeColor = System.Drawing.Color.Red;
-            this.user_name_error.Location = new System.Drawing.Point(83, 214);
-            this.user_name_error.Name = "user_name_error";
-            this.user_name_error.Size = new System.Drawing.Size(194, 22);
-            this.user_name_error.TabIndex = 4;
-            this.user_name_error.Text = "Enter Correct User Name";
-            this.user_name_error.Visible = false;
-            // 
-            // id_number_error
-            // 
-            this.id_number_error.BackColor = System.Drawing.Color.Transparent;
-            this.id_number_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.id_number_error.ForeColor = System.Drawing.Color.Red;
-            this.id_number_error.Location = new System.Drawing.Point(83, 374);
-            this.id_number_error.Name = "id_number_error";
-            this.id_number_error.Size = new System.Drawing.Size(190, 22);
-            this.id_number_error.TabIndex = 4;
-            this.id_number_error.Text = "Enter Correct ID Number";
-            this.id_number_error.Visible = false;
-            // 
-            // email_error
-            // 
-            this.email_error.BackColor = System.Drawing.Color.Transparent;
-            this.email_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.email_error.ForeColor = System.Drawing.Color.Red;
-            this.email_error.Location = new System.Drawing.Point(83, 544);
-            this.email_error.Name = "email_error";
-            this.email_error.Size = new System.Drawing.Size(155, 22);
-            this.email_error.TabIndex = 4;
-            this.email_error.Text = "Enter Correct e-mail";
-            this.email_error.Visible = false;
-            // 
-            // password_error
-            // 
-            this.password_error.BackColor = System.Drawing.Color.Transparent;
-            this.password_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.password_error.ForeColor = System.Drawing.Color.Red;
-            this.password_error.Location = new System.Drawing.Point(672, 214);
-            this.password_error.Name = "password_error";
-            this.password_error.Size = new System.Drawing.Size(183, 22);
-            this.password_error.TabIndex = 4;
-            this.password_error.Text = "Enter Correct Password";
-            this.password_error.Visible = false;
-            // 
-            // repassword_error
-            // 
-            this.repassword_error.BackColor = System.Drawing.Color.Transparent;
-            this.repassword_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.repassword_error.ForeColor = System.Drawing.Color.Red;
-            this.repassword_error.Location = new System.Drawing.Point(672, 374);
-            this.repassword_error.Name = "repassword_error";
-            this.repassword_error.Size = new System.Drawing.Size(181, 22);
-            this.repassword_error.TabIndex = 4;
-            this.repassword_error.Text = "Enter Correct password";
-            this.repassword_error.Visible = false;
-            // 
-            // guna2CheckBox1
-            // 
-            this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.guna2CheckBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2CheckBox1.Location = new System.Drawing.Point(900, 389);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(175, 29);
-            this.guna2CheckBox1.TabIndex = 5;
-            this.guna2CheckBox1.Text = "Show Password";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 2;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CheckBox1.CheckedChanged += new System.EventHandler(this.guna2CheckBox1_CheckedChanged);
             // 
             // Form3
             // 

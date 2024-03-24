@@ -41,6 +41,7 @@ namespace Library_Management_System
             if(e.KeyChar == (char)Keys.Enter)
             {
                 ID_number_text.Focus();
+                e.Handled = true;
             }
         }
 
@@ -49,6 +50,7 @@ namespace Library_Management_System
             if (e.KeyChar == (char)Keys.Enter)
             {
                 email_text.Focus();
+                e.Handled = true;
             }
         }
 
@@ -57,6 +59,7 @@ namespace Library_Management_System
             if (e.KeyChar == (char)Keys.Enter)
             {
                 password_text.Focus();
+                e.Handled = true;
             }
         }
 
@@ -65,6 +68,7 @@ namespace Library_Management_System
             if (e.KeyChar == (char)Keys.Enter)
             {
                 repassword_text.Focus();
+                e.Handled = true;
             }
         }
 
@@ -73,6 +77,7 @@ namespace Library_Management_System
             if (e.KeyChar == (char)Keys.Enter)
             {
                 guna2Button1.Focus();
+                e.Handled = true;
             }
         }
 
@@ -96,6 +101,11 @@ namespace Library_Management_System
         }
 
         private void ID_number_text_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void user_name_text_TextChanged(object sender, EventArgs e)
         {
 
         }

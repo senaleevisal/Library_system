@@ -119,12 +119,22 @@ namespace Library_Management_System
 
         private void login_username_textbox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            login_password_textbox.Focus();
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                login_password_textbox.Focus();
+
+                e.Handled = true;
+            }
         }
 
         private void login_password_textbox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            login_button.Focus();
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                login_button.Focus();
+
+                e.Handled = true;
+            }
         }
     }
 }
