@@ -12,3 +12,19 @@ C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_Syst
 C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.pdb
 C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Form2.resources
 C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Form3.resources
+\\Mac\Home\Developer\Library mgt\bin\Debug\Library_Management_System.exe.config
+\\Mac\Home\Developer\Library mgt\bin\Debug\Library_Management_System.exe
+\\Mac\Home\Developer\Library mgt\bin\Debug\Library_Management_System.pdb
+\\Mac\Home\Developer\Library mgt\bin\Debug\Guna.UI2.dll
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.csproj.AssemblyReference.cache
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.Form1.resources
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.Form2.resources
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.Form3.resources
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.Properties.Resources.resources
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.csproj.GenerateResource.cache
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.csproj.CoreCompileInputs.cache
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_.A652AF67.Up2Date
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.exe
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.pdb
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.Home.resources
+\\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.PanelHome.resources
