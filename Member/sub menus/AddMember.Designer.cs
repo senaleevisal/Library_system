@@ -28,8 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // AddMember
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
+            this.Name = "AddMember";
+            this.Size = new System.Drawing.Size(810, 672);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

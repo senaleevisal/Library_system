@@ -16,5 +16,40 @@ namespace Library_Management_System.Member
         {
             InitializeComponent();
         }
+
+        private void lbl_Window_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_AddBook_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_SearchBooks_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
