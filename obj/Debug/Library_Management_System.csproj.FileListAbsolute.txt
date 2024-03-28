@@ -30,3 +30,8 @@ C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_Syst
 \\Mac\Home\Developer\Library mgt\obj\Debug\Library_Management_System.PanelHome.resources
 C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Home.resources
 C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.PanelHome.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Book.PanelBook.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Book.sub_menu.AddBook.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Book.sub_menu.SearchBooks.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Book.sub_menu.UpdateBooks.resources
+C:\Users\ridma\Documents\GitHub\Library_system\obj\Debug\Library_Management_System.Book.sub_menu.ViewOrder.resources

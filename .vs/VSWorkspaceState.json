@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Book",
+    "\\Books",
+    "\\Book\\sub menu"
   ],
-  "SelectedNode": "\\Form3.cs",
+  "SelectedNode": "\\Book\\PanelBook.cs",
   "PreviewInSolutionExplorer": false
 }

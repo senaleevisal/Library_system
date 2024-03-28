@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Library_Management_System.Book;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,7 @@ namespace Library_Management_System
         }
         // Create a new instance of your Home_panel user control
         PanelHome panelHome = new PanelHome();
+        PanelBook book = new PanelBook();
 
         private void btnHome_Click(object sender, EventArgs e)
         {
@@ -34,7 +36,13 @@ namespace Library_Management_System
 
         private void btnBooks_Click(object sender, EventArgs e)
         {
+            panel_Display.Controls.Clear();
 
+            {
+                Dock = DockStyle.Fill; 
+            }
+
+            panel_Display.Controls.Add(book);
         }
     }
 }
