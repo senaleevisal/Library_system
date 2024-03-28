@@ -51,20 +51,20 @@
             // 
             this.lbl_Window.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Window.Font = new System.Drawing.Font("Calibri", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Window.Location = new System.Drawing.Point(122, 209);
-            this.lbl_Window.Margin = new System.Windows.Forms.Padding(2);
+            this.lbl_Window.Location = new System.Drawing.Point(163, 257);
+            this.lbl_Window.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lbl_Window.Name = "lbl_Window";
-            this.lbl_Window.Size = new System.Drawing.Size(135, 35);
+            this.lbl_Window.Size = new System.Drawing.Size(165, 42);
             this.lbl_Window.TabIndex = 5;
             this.lbl_Window.Text = "WELCOME !";
             this.lbl_Window.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Location = new System.Drawing.Point(326, 136);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel1.Location = new System.Drawing.Point(435, 167);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(405, 349);
+            this.guna2Panel1.Size = new System.Drawing.Size(540, 430);
             this.guna2Panel1.TabIndex = 6;
             // 
             // menuStrip1
@@ -77,9 +77,9 @@
             this.vIEWODERToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(764, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1019, 30);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -87,35 +87,35 @@
             // aDDBOOKToolStripMenuItem
             // 
             this.aDDBOOKToolStripMenuItem.Image = global::Library_Management_System.Properties.Resources.add__1_;
-            this.aDDBOOKToolStripMenuItem.Margin = new System.Windows.Forms.Padding(50, 0, 50, 0);
+            this.aDDBOOKToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.aDDBOOKToolStripMenuItem.MergeIndex = 0;
             this.aDDBOOKToolStripMenuItem.Name = "aDDBOOKToolStripMenuItem";
-            this.aDDBOOKToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.aDDBOOKToolStripMenuItem.Size = new System.Drawing.Size(119, 26);
             this.aDDBOOKToolStripMenuItem.Text = "ADD BOOK";
             this.aDDBOOKToolStripMenuItem.Click += new System.EventHandler(this.aDDBOOKToolStripMenuItem_Click);
             // 
             // bOOKSSEARCHToolStripMenuItem
             // 
             this.bOOKSSEARCHToolStripMenuItem.Image = global::Library_Management_System.Properties.Resources.search;
-            this.bOOKSSEARCHToolStripMenuItem.Margin = new System.Windows.Forms.Padding(50, 0, 50, 0);
+            this.bOOKSSEARCHToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.bOOKSSEARCHToolStripMenuItem.Name = "bOOKSSEARCHToolStripMenuItem";
-            this.bOOKSSEARCHToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.bOOKSSEARCHToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.bOOKSSEARCHToolStripMenuItem.Text = "BOOKS SEARCH";
             // 
             // bOOKSUPDATEToolStripMenuItem
             // 
             this.bOOKSUPDATEToolStripMenuItem.Image = global::Library_Management_System.Properties.Resources.refresh;
-            this.bOOKSUPDATEToolStripMenuItem.Margin = new System.Windows.Forms.Padding(50, 0, 50, 0);
+            this.bOOKSUPDATEToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.bOOKSUPDATEToolStripMenuItem.Name = "bOOKSUPDATEToolStripMenuItem";
-            this.bOOKSUPDATEToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.bOOKSUPDATEToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.bOOKSUPDATEToolStripMenuItem.Text = "BOOKS UPDATE";
             // 
             // vIEWODERToolStripMenuItem
             // 
             this.vIEWODERToolStripMenuItem.Image = global::Library_Management_System.Properties.Resources.eye;
-            this.vIEWODERToolStripMenuItem.Margin = new System.Windows.Forms.Padding(50, 0, 50, 0);
+            this.vIEWODERToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.vIEWODERToolStripMenuItem.Name = "vIEWODERToolStripMenuItem";
-            this.vIEWODERToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
+            this.vIEWODERToolStripMenuItem.Size = new System.Drawing.Size(121, 26);
             this.vIEWODERToolStripMenuItem.Text = "VIEW ODER";
             // 
             // guna2ContextMenuStrip1
@@ -178,37 +178,37 @@
             this.guna2ContextMenuStrip4.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.guna2ContextMenuStrip4.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.guna2ContextMenuStrip4.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2ContextMenuStrip4.Size = new System.Drawing.Size(134, 26);
+            this.guna2ContextMenuStrip4.Size = new System.Drawing.Size(155, 28);
             // 
             // aDDBOOKToolStripMenuItem1
             // 
             this.aDDBOOKToolStripMenuItem1.Name = "aDDBOOKToolStripMenuItem1";
-            this.aDDBOOKToolStripMenuItem1.Size = new System.Drawing.Size(133, 22);
+            this.aDDBOOKToolStripMenuItem1.Size = new System.Drawing.Size(154, 24);
             this.aDDBOOKToolStripMenuItem1.Text = "ADD BOOK";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 248);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 305);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(299, 178);
+            this.pictureBox1.Size = new System.Drawing.Size(399, 219);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // PanelBook
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.lbl_Window);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "PanelBook";
-            this.Size = new System.Drawing.Size(764, 603);
+            this.Size = new System.Drawing.Size(1019, 742);
             this.Load += new System.EventHandler(this.PanelBook_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -113,6 +113,7 @@
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(286, 33);
             this.guna2TextBox1.TabIndex = 5;
+            this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // guna2TextBox2
             // 
@@ -135,6 +136,7 @@
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(286, 33);
             this.guna2TextBox2.TabIndex = 6;
+            this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
             // guna2TextBox3
             // 
@@ -157,6 +159,7 @@
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.Size = new System.Drawing.Size(286, 33);
             this.guna2TextBox3.TabIndex = 7;
+            this.guna2TextBox3.TextChanged += new System.EventHandler(this.guna2TextBox3_TextChanged);
             // 
             // guna2TextBox4
             // 
@@ -179,6 +182,7 @@
             this.guna2TextBox4.SelectedText = "";
             this.guna2TextBox4.Size = new System.Drawing.Size(286, 33);
             this.guna2TextBox4.TabIndex = 8;
+            this.guna2TextBox4.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged);
             // 
             // guna2TextBox5
             // 
@@ -239,7 +243,7 @@
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddBook";
             this.Size = new System.Drawing.Size(540, 430);
             this.Load += new System.EventHandler(this.AddBook_Load);
